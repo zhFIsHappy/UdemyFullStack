@@ -1,0 +1,9 @@
+#middle{
+    background-color : #81b29a;
+}
+#static #middle{
+    position:static;
+}
+#relative #middle{
+    
+}

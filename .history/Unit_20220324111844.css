@@ -1,0 +1,11 @@
+section{
+    background-color: #6d6975;
+    width: 80px;
+    height: 80px;
+}
+/*as height as the parent section*/
+div{
+    background-color: #E5989b;
+    width: 70%;
+    height: 50%;
+}

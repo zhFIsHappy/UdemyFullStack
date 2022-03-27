@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    font-weight : 400;
+    text-decoration: blue underline;
+    letter-spacing :10px;   
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}

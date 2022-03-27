@@ -1,0 +1,2 @@
+Crucial: Table basics: <table> <tr> <td> and <th> Form Element basics, Button Elements, Label, Common input types.
+Important: Table Sections: <thread>, <tfoot>,<tbody>, Range and Text Areas, Form validations

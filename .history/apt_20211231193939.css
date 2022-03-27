@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    font-weight : 400;
+    text-decoration: blue underline;
+    letter-spacing :15px;   
+    font-size: 80px;
+    font-family:Segoe Ui, Futura, Arial, san;
+}
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 2;
+}

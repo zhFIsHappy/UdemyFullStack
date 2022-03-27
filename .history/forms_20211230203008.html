@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <button>outside form</button>
+    <form action = "/tacos">
+        <button type = "button">Please don't submit</button>
+        <p>
+            <label for  = "username">Enter a Username:</label>
+            <input id = "username" type="text" placeholder="username" name = "username">
+        </p>
+        <p>
+            <label for = "password">Enter a Password:</label>
+            <input type="password" placeholder="password" id = "password" name= "password">
+        </p>
+        <button>In The Middle!</button>
+        <p>
+            <label for="color">Enter a color:</label>
+            <input type="color" id="color" name = "color"> 
+        </p>
+        <p>
+            <label for = "number">Enter a number:</label>   
+            <input type="number" placeholder="enter a number" id = "number" min ="0" max = "10" step = "2" name = "number">
+        </p>
+        <button>submit</button>
+    </form>
+    <button>Not Inside Form</button>
+    <h2> hijacking searching</h2>
+    <h3>search Reddit</h3>
+    <form action="https://reddit.com/search">
+        <input type="text" name="q">
+        <button> Search Reddit</button>
+    </form>
+    <h3>search Google</h3>
+    <form action = "https://www.google.com/search">
+        <input type="text" name="q">
+        <button> Search Google</button>
+    </form>
+    <h3>search Youtubell</h3>
+    <form action="https://www.youtube.com/results">
+        <input type="text" name="search_query">
+        <button> Search Youtube</button>
+    </form>
+    <h2>More Inputs</h2>
+    <form action="/birds">
+        <input type="checkbox" name = "agree_tos" id  = "agree" checked>
+        <label for ="agree">I agree to everything checked</label>
+        <p>
+            <label for ="xs">Xs:</label>
+            <input type="radio" name = "size" id="xs" value = "xs">
+            <label for ="s">S</label>
+            <input type="radio" name="size" id="s"value = "s">
+            <label for="m">M</label>
+            <input type="radio" name="size" id="m"value = "m">
+        </p>
+        <p>
+            <label for = "">Please select an Entree</label>
+            <select name ="meal" id="meal">
+                <option value ="fish">Fish</option>
+                <option value="veg" selected>Veg</option>
+                <option value="steak">Steak</option>
+            </select>
+        </p>
+        <p>
+            <label for = "cheese">Amount of Cheese:</label>
+            <input type="range" id = "cheese" min ="0" max = "100" step = "7" name = "cheesebubble">
+        </p>
+        <p>
+            <label for="request"> Any special request?</label>
+            <textarea name="request" rows="10" cols = "40" name= "requests" placeholder = "Type sth here    "></textarea>
+        </p>
+        <button>Sumbit</button>
+
+        <h2>Validation Demo</h2>
+        <form action = '/dummy'>
+            <label for= "first">Enter first name</label>
+            <input type = "text" name = "first" id= "first" required>
+            <p>
+                
+            </p>
+            <button>Submit</button>
+        </form>
+    </form>
+</body>
+</html>

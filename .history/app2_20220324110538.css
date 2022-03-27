@@ -1,0 +1,13 @@
+/*display */
+span{
+    background-color: palevioletred;
+    border: 1px solid black;
+    width: 500px;
+    padding: 15px;
+    margin:50px;
+}
+h1{
+    background-color: palevioletred;
+    border: 1px solid black;
+
+}
